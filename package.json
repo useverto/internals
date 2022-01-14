@@ -1,0 +1,19 @@
+{
+  "name": "@verto/internals",
+  "version": "1.0.0",
+  "description": "A collection of common code shared throughout Verto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/useverto/internals.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/useverto/internals/issues"
+  },
+  "homepage": "https://github.com/useverto/internals#readme"
+}
