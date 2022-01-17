@@ -1,5 +1,5 @@
 {
-  "name": "@verto/internals",
+  "name": "verto-internals",
   "version": "0.1.0",
   "description": "A collection of common code shared throughout Verto",
   "main": "index.js",
