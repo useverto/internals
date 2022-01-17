@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/useverto/internals/issues"
   },
-  "homepage": "https://github.com/useverto/internals#readme"
+  "homepage": "https://github.com/useverto/internals#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.9"
+  },
+  "dependencies": {
+    "@google-cloud/datastore": "^6.6.2",
+    "@google-cloud/storage": "^5.17.0",
+    "@nestjs/common": "^8.2.5"
+  }
 }
