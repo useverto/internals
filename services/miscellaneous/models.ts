@@ -2,7 +2,8 @@ export interface PaginationInfo {
     count: number,
     pageSize: number,
     page: number,
-    maxPages: number
+    maxPages: number,
+    found: number
 }
 
 export interface PaginationResult<T = any> {

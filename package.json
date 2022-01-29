@@ -1,6 +1,6 @@
 {
   "name": "verto-internals",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "A collection of common code shared throughout Verto",
   "main": "index.js",
   "scripts": {
