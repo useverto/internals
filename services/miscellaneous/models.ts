@@ -14,7 +14,7 @@ export interface PaginationResult<T = any> {
 export interface PaginatedData<T = any> {
     items: Array<T>,
     hasNextPage: () => boolean,
-    nextPage: () => PaginatedData<T>,
+    nextPage: () => Promise<PaginatedData<T>>,
     isEmpty: () => boolean,
     getPaginationInfo: () => PaginationInfo
 }
