@@ -1,5 +1,6 @@
 import {entity} from "@google-cloud/datastore/build/src/entity";
 import {Operator, OrderOptions} from "@google-cloud/datastore/build/src/query";
+import {FileOptions} from "@google-cloud/storage";
 
 export interface GcpCredentialsProvider {
     type: string;
@@ -63,4 +64,10 @@ export interface QueryResultBase<T = any> {
 
 export interface QueryResult<T = any> extends QueryResultBase<T> {
     isEmpty: () => boolean
+}
+
+export interface FileSaveInfo {
+    fileName: string;
+    fileContent: string | Buffer;
+    options?: FileOptions;
 }
