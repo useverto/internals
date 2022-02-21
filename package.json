@@ -2,7 +2,8 @@
   "name": "verto-internals",
   "version": "0.9.0",
   "description": "A collection of common code shared throughout Verto",
-  "main": "index.js",
+  "main": "dist",
+  "types": "dist",
   "scripts": {
     "tsc": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
