@@ -8,6 +8,7 @@
     "target": "es2017",
     "sourceMap": true,
     "baseUrl": "./",
+    "outDir": "./dist",
     "incremental": true,
     "skipLibCheck": true,
     "esModuleInterop": true,

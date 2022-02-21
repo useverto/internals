@@ -4,6 +4,7 @@
   "description": "A collection of common code shared throughout Verto",
   "main": "index.js",
   "scripts": {
+    "tsc": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
     "deliver": "npm publish --access=public"
   },
@@ -18,8 +19,9 @@
   },
   "homepage": "https://github.com/useverto/internals#readme",
   "devDependencies": {
+    "@nestjs/cli": "^8.1.1",
     "@types/node": "^17.0.9",
-    "@nestjs/cli": "^8.1.1"
+    "typescript": "^4.5.5"
   },
   "dependencies": {
     "@google-cloud/datastore": "^6.6.2",
